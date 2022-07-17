@@ -44,4 +44,6 @@ class BreweryClientTest {
     void deleteBeer() {
         breweryClient.deleteById(UUID.randomUUID());
     }
+
+
 }
